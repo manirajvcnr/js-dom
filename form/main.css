@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+fieldset{
+    box-sizing: border-box;
+    background-color: lightcoral;
+    box-shadow: 5px 5px 6px lightslategray;
+    height: auto;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+legend{
+    font-size: 30px;
+    color: black;
+}
+label{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+input:focus{
+    outline-color: red;
+}
+.password{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    color: white;
+}
+span{
+    display: block;
+}
+/* radio button */
+.radio-bt{
+    height: 300px;
+    width: 700px;
+    background-color: lightblue;
+    box-shadow: 5px 5px 6px lightslategray;
+}
+.gender{
+    text-align: center;
+}
+

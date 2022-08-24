@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>DOM manipulation text box(password confirmation)</h1>
+    <fieldset>
+        <legend>Form-User</legend>
+        
+        <div class="password">
+        <label for="name">Name :</label>
+        <input type="text" id="name" placeholder="enter your name" required>
+    </div>
+    
+    <div class="password">
+    <label for="mobileno">Mobile :</label>
+        <input type="number" id="mobile" placeholder="enter your mobile number" required>
+    </div>
+    
+    <div class="password">
+    <label for="mail">Gmail :</label>
+        <input type="mail" id="mail" placeholder="enter your mail" required>
+    </div>
+    
+    <div class="password">
+    <label for="password">password :</label>
+        <input type="password" id="password"   placeholder="enter your password" required>
+    </div>
+
+      <div class="password">
+        <label for="password">Confirm-password :</label>
+        <input type="password" id="cpassword"   placeholder="enter your password" oninput="conpass()" required >
+    </div>
+    <span id="status"></span>
+
+        <button type="submit" id="sub">Submit</button>
+    </fieldset> 
+
+<!-- radio -->
+<div class="radio-bt">
+    <h1>Dom manipulation in Radio button</h1>
+    <div class="gender">
+    <input type="radio" id="male" value="male" name="gender">
+    <label for="male">Male</label>
+</div>
+<div class="gender">
+    <input type="radio" id="female" value="female" name="gender">
+    <label for="female">Female</label><br><br>
+    <button id="gen" class="gender-bt">Gender me!</button>
+</div>
+</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
